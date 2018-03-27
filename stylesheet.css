@@ -1,0 +1,270 @@
+h1 {
+	font-size: 70px;
+	text-align: center;
+}
+
+p {
+	font-size: 22px;
+	text-align: center;
+	font-weight: normal;
+}
+
+html {	
+	cursor: url('Images/dvc.png'), auto;
+	background: #ffaf10; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffaf10 0%, #fe5a1d 100%); /* FF3.6-15 */
+	background: linear-gradient(to bottom, #ffaf10 0%,#fe5a1d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaf10', endColorstr='#fe5a1d',GradientType=0 ); /* IE6-9 */
+}
+div a.cursor:hover {
+	cursor: url('Images/dvchover.png'), auto;
+}
+
+.splashfont {
+	font-family: Courier;
+
+}
+
+.daramolafont {
+	font-family: Garamond;
+}
+
+.noelfont {
+	font-family: Georgia;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20% 20%;
+	grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+.contentgrid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 2vh;
+}
+  
+.daramola1title {
+	background-color: rgba(255,71,68,0.4);
+	padding: 1em;
+	grid-column: 3/8;
+	grid-row: 1/2;
+	border: 1px black solid;
+}
+ 
+.daramola1int {
+	background-color: rgba(255,71,68,0.4);
+	padding: 1em;
+	grid-column: 3/8;
+	grid-row: 2/6;
+	border: 1px black solid;
+}  
+
+.daramola1map {
+	background-color: rgba(255,71,68,0.4);
+	padding: 1em;
+	grid-column: 3/8;
+	grid-row: 6/8;
+	border: 1px black solid;
+}  
+
+.noel1title {
+	background-color: rgba(186,184,145, 0.4);
+	padding: 1em;
+	grid-column: 3/8;
+	grid-row: 1/2;
+	border: 1px black solid;
+}  
+ 
+.noel1subj {
+	background-color: rgba(186,184,145, 0.4);
+	padding: 1em;
+	grid-column: 3/8;
+	grid-row: 2/6;
+	border: 1px black solid;
+}  
+
+.noel1essay {
+	background-color: rgba(186,184,145, 0.4);
+	padding: 1em;
+	grid-column: 3/8;
+	grid-row: 6/10;
+	border: 1px black solid;
+}
+.splashgrid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 2vh;
+}
+
+.daramolatitle {
+	background-color: rgba(255,71,68,0.4);
+	padding: 1em;
+	grid-column: 3/6;
+	grid-row: 1/4;
+	border: 1px black solid;
+}  
+
+.daramolabody {
+	background-color: rgba(255,71,68,0.4);
+	padding: 1em;
+	grid-column: 3/6;
+	grid-row: 4/5;
+	border: 1px black solid;
+}
+.daramolalinks {
+	background-color: rgba(255,71,68,0.4);
+	padding: 1em;
+	grid-column: 3/6;
+	grid-row: 5/8;
+	border: 1px black solid;
+}
+
+.noeltitle {
+	background-color: rgba(186,184,145, 0.4);
+	padding: 1em;
+	grid-column: 3/6;
+	grid-row: 1/4;
+	border: 1px black solid;
+}
+
+.noelbody {
+	background-color: rgba(186,184,145, 0.4);
+	padding: 1em;
+	grid-column: 3/6;
+	grid-row: 4/5;
+	border: 1px black solid;
+ }
+
+ .noellinks {
+	background-color: rgba(186,184,145, 0.4);
+	padding: 1em;
+	grid-column: 3/6;
+	grid-row: 5/8;
+	border: 1px black solid;
+}
+ 
+.splashtitle {
+	background-color: rgba(109, 50, 168, 0.4);
+	padding: 1em;
+	grid-column: 3/6;
+	grid-row: 1/2;
+	border: 1px black solid;
+}
+
+.splashbody {
+	background-color: rgba(109, 50, 168, 0.4);
+	padding: 1em;
+	grid-column: 3/6;
+	grid-row: 2/3;
+	border: 1px black solid;
+}
+
+.splashlinks {
+	background-color: rgba(109, 50, 168, 0.4);
+	padding: 1em;
+	grid-column: 3/6;
+	grid-row: 3/4;
+	border: 1px black solid;
+}
+
+h3 {
+	font-size: 41px;
+	text-align: center;
+}
+
+a {
+	font-size: 22px;
+	text-align: center;
+}
+
+/* Add a black background color to the top navigation */
+.navbar {
+    background-color: rgba(109, 50, 168, 0.74);
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.Daramolanav {
+    background-color: #FF4744;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.Daramolanav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+
+.Daramolanav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.Daramolanav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.noelnav {
+    background-color: #bab891;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.noelnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+
+.noelnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.noelnavnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.audio1 {
+text-align: center;
+}
