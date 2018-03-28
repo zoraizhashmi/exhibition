@@ -201,12 +201,13 @@ h3 {
 	text-align: center;
 }
 
+/* Change Font Size */
 a {
 	font-size: 22px;
 	text-align: center;
 }
 
-/* Add a black background color to the top navigation */
+/* Add a purple background color to the top navigation */
 .navbar {
     background-color: rgba(109, 50, 168, 0.74);
     overflow: hidden;
@@ -226,12 +227,6 @@ a {
 .navbar a:hover {
     background-color: #ddd;
     color: black;
-}
-
-/* Add a color to the active/current link */
-.navbar a.active {
-    background-color: #4CAF50;
-    color: white;
 }
 
 .Daramolanav {
@@ -256,11 +251,6 @@ a {
     color: black;
 }
 
-/* Add a color to the active/current link */
-.Daramolanav a.active {
-    background-color: #4CAF50;
-    color: white;
-}
 
 .noelnav {
     background-color: #bab891;
@@ -282,12 +272,6 @@ a {
 .noelnav a:hover {
     background-color: #ddd;
     color: black;
-}
-
-/* Add a color to the active/current link */
-.noelnavnav a.active {
-    background-color: #4CAF50;
-    color: white;
 }
 
 .audio1 {
